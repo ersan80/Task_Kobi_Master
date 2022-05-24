@@ -1,0 +1,167 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+.mask-custom{
+    backdrop-filter: blur(2px);
+    background-color: rgba(255, 255, 255, .15);
+}
+.nav-link{
+    color: black;
+}
+.blouse{
+    font-family: 'Yesteryear', cursive;
+    color: black;
+  }
+.carousel-caption{
+    margin-right: 25rem;
+    margin-bottom: 15rem;
+}
+.text{
+    bottom: 10rem;
+    left: 10rem;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    padding: 10px;
+    height: 35rem;
+  }
+.grid-container > div {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+
+  }
+.item1{
+    grid-column: 1/3;
+    grid-row: 1/3;
+    background-image: url(./image/resim3.jpg);
+    background-size:cover;
+    display: flex;
+    display: flex;
+}
+.instagram{
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 50%;
+}
+.icon{
+    font-size: xx-large;
+}
+.item-card-title{
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    margin: auto;
+}
+.text-form{
+    font-size: 0.8rem;
+    opacity: 0.7;
+}
+.item-card{
+    margin-top:auto ;
+    text-align: left;
+}
+.button-item{
+    font-size: small;
+}
+
+.item1 > div{
+    justify-content: center;
+}
+.item2{
+    background-image: url(./image/resim4.jpg);
+    background-size: cover;
+    display: flex;
+}
+.item3{
+    background-image: url(./image/resim6.jpg);
+    background-size:cover;
+    display: flex;
+}
+.item4{
+    background-image: url(./image/aksesuar-8.jpeg);
+    background-size:cover;
+    display: flex;
+    display: flex;
+}
+.item5{
+    background-image: url(./image/erkekurunler-7.jpeg);
+    background-size:cover;
+    display: flex;
+    display: flex;
+}
+ @media screen and (max-width: 999px) {
+     .colum {
+        flex: 50%;
+        width: 20%;
+    }
+     .grid-container{
+        display: flex;
+        flex-wrap: wrap;
+        width: 50%;
+        height: 80rem;
+        margin: auto;
+    }
+} 
+.arrowp{
+    font-weight: 900;
+    opacity: 0.5;
+}
+
+.my-footer{
+   font-size: 0.7rem;
+
+   margin: 0;
+   
+
+}
+.input{
+    font-size: small;
+    
+}
+.button-form{
+    font-size: 0.7rem;
+    font-weight: 600;
+    
+
+}
+.blouse-footer{
+    font-family: 'Yesteryear', cursive;
+    font-size: 2rem;
+}
+
+.card-title{
+    font-size: 1rem;
+    
+}
+
+.card-text{
+    font-size: 0.7rem;
+    opacity: 0.7;
+}
+
+.font-button{
+    font-size: 9px;
+    padding: 0.8rem 2.5rem 0.8rem 2.5rem;
+    color: rgb(3, 2, 2);
+    width: 50%;
+    
+}
+
+.font-button-navbar{
+    font-size: 9px;
+    padding: 0.8rem 2.5rem 0.8rem 2.5rem;
+    color: rgb(255, 255, 255);
+}
+
+.grid-title{
+    position: relative;
+    top: 1rem;
+    left: 0.1rem;
+    opacity: 0.8;
+}
